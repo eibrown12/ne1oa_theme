@@ -1,0 +1,22 @@
+name: NE1OA
+description: Custom Drupal 8 theme for Section NE-1, OA
+type: theme
+base theme: false
+core: 8.x
+
+libraries:
+  - ne1oa/global-styling-and-scripts
+  - ne1oa/js-header
+regions:
+  primary_menu: 'Primary menu'
+  banner_image: 'Banner Image'
+  header: Header
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  content: 'Content'
+  page_bottom: 'Page bottom'
+  primary_sidebar: 'First sidebar'
+  secondary_sidebar: 'Secondary sidebar'
+  first_footer: 'First footer'
+  second_footer: 'Second footer'
+  third_footer: 'Third footer'
